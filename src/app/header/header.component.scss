@@ -1,0 +1,40 @@
+.navbar{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    z-index: 2;
+    position: fixed;
+    top: 0px;
+}
+.logo-exdata{
+    width: 120px;
+    height: 55px;
+}
+.material-symbols-rounded{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar{
+        padding: 0px 115px;
+    }
+}
+
+.dark{
+    transition: .5s;
+    background-color: rgb(39, 38, 67);
+    color: white;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 1px 1px;
+
+}
+
+.light{
+    transition: .5s;
+    background-color: white;
+    color: black;
+    box-shadow: rgba(39, 38, 67, 0.1) 0px 0px 1px 1px;
+}
